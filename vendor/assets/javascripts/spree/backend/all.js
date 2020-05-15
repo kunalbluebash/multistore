@@ -9,3 +9,9 @@
 //= require spree/backend
 
 //= require_tree .
+
+$(document).on("click","#add-to-cart-button",function(){
+    let countall = '<%= count_on_hand %>';
+    alert(countall);
+  });
+  
